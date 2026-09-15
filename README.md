@@ -59,7 +59,8 @@ Balls Left
 Wickets Remaining
 Target
 Current Run Rate
-Required Run Rate```
+Required Run Rate
+```
 
 
 ## 🔄 Workflow
