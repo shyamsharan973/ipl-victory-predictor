@@ -59,9 +59,10 @@ Balls Left
 Wickets Remaining
 Target
 Current Run Rate
-Required Run Rate 
+Required Run Rate
 
-🔄 Workflow
+```markdown
+## 🔄 Workflow
 IPL Historical Data
         ↓
 Data Preprocessing
@@ -78,10 +79,12 @@ Winning Probability
         ↓
 Predicted Winner
 
+```markdown
 🛠️ Tech Stack
 
 Python • Pandas • Scikit-learn • Logistic Regression • Streamlit • Git • GitHub • Render
 
+```markdown
 📁 Project Structure
 IPL-Victory-Predictor/
 │
@@ -104,6 +107,7 @@ IPL-Victory-Predictor/
     ├── DC.png
     └── KKR.png
 
+```markdown
 ⚙️ Run Locally
 git clone https://github.com/shyamsharan973/ipl-victory-predictor.git
 
@@ -113,11 +117,12 @@ pip install -r requirements.txt
 
 streamlit run main.py
 
+```markdown
 🚀 Live Application
 
 👉 [Open IPL Victory Predictor]([url](https://ipl-victory-predictor-v0yw.onrender.com/))
 
-
+```markdown
 ⭐ If you found this project interesting, consider giving the repository a star!
 This is the version I'd recommend for your repo: **short enough that recruiters will actually read it, but detailed enough to understand the project.**
 
