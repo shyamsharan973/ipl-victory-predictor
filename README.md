@@ -1,7 +1,7 @@
 # 🏏 IPL Victory Predictor
 
 <p align="center">
-  <b>Machine Learning Based IPL Winning Probability Predictor</b>
+<b>Machine Learning Based IPL Winning Probability Predictor</b>
 </p>
 
 <p align="center">
@@ -15,8 +15,8 @@
 
 <p align="center">
 
-🚀 **[Live Demo](https://ipl-victory-predictor-v0yw.onrender.com)**  
-💻 **[GitHub Repository](https://github.com/shyamsharan973/ipl-victory-predictor)**
+🚀 [Live Demo](https://ipl-victory-predictor-v0yw.onrender.com)  
+💻 [GitHub Repository](https://github.com/shyamsharan973/ipl-victory-predictor)
 
 </p>
 
@@ -28,7 +28,7 @@
 
 Users can enter the batting team, bowling team, venue, target, current score, overs completed, and wickets down.
 
-The application calculates important match features such as **runs left, balls left, wickets remaining, CRR, and RRR**, and uses a trained Machine Learning model to predict the likely winner.
+The application calculates **Runs Left, Balls Left, Wickets Remaining, CRR, and RRR** before generating the predicted winning probability.
 
 ---
 
@@ -62,8 +62,13 @@ Current Run Rate
 Required Run Rate
 ```
 
+Categorical features are processed using **One-Hot Encoding**.
+
+---
 
 ## 🔄 Workflow
+
+```text
 IPL Historical Data
         ↓
 Data Preprocessing
@@ -79,14 +84,19 @@ Streamlit Application
 Winning Probability
         ↓
 Predicted Winner
+```
 
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Python • Pandas • Scikit-learn • Logistic Regression • Streamlit • Git • GitHub • Render
+**Python • Pandas • Scikit-learn • Logistic Regression • Streamlit • Git • GitHub • Render**
 
+---
 
-📁 Project Structure
+## 📁 Project Structure
+
+```text
 IPL-Victory-Predictor/
 │
 ├── main.py
@@ -107,9 +117,13 @@ IPL-Victory-Predictor/
     ├── SRH.png
     ├── DC.png
     └── KKR.png
+```
 
+---
 
-⚙️ Run Locally
+## ⚙️ Run Locally
+
+```bash
 git clone https://github.com/shyamsharan973/ipl-victory-predictor.git
 
 cd ipl-victory-predictor
@@ -117,9 +131,24 @@ cd ipl-victory-predictor
 pip install -r requirements.txt
 
 streamlit run main.py
+```
 
+---
+
+## 🚀 Live Application
+
+👉 [Open IPL Victory Predictor](https://ipl-victory-predictor-v0yw.onrender.com)
+
+---
+
+## 👨‍💻 Author
+
+**Shyam Sharan**
+
+BCA Graduate | Python | SQL | Data Analytics | Machine Learning
+
+🔗 [GitHub](https://github.com/shyamsharan973)
+
+---
 
 ⭐ If you found this project interesting, consider giving the repository a star!
-This is the version I'd recommend for your repo: **short enough that recruiters will actually read it, but detailed enough to understand the project.**
-
-Also, the Logistic Regression and One-Hot Encoding claims match your actual trained pipeline, rather than the more advanced models in the reference README. :contentReference[oaicite:0]{index=0}
