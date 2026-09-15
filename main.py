@@ -103,15 +103,15 @@ pipe = pickle.load(open('pipe.pkl','rb'))
 
 # ---------------- TEAM NAME → LOGO FILE MAP ---------------- #
 team_logo = {
-    "Chennai Super Kings": "csk.png",
-    "Royal Challengers Bangalore": "rcb.png",
-    "Gujarat Titans": "gt.png",
-    "Rajasthan Royals": "rr.png",
-    "Lucknow Super Giants": "lsg.png",
-    "Kings XI Punjab": "pbks.png",
-    "Sunrisers Hyderabad": "srh.png",
-    "Delhi Capitals": "dc.png",
-    "Kolkata Knight Riders": "kkr.png"
+    "Chennai Super Kings": "CSK.png",
+    "Royal Challengers Bangalore": "RCB.png",
+    "Gujarat Titans": "GT.png",
+    "Rajasthan Royals": "RR.png",
+    "Lucknow Super Giants": "LSG.png",
+    "Kings XI Punjab": "PBKS.png",
+    "Sunrisers Hyderabad": "SRH.png",
+    "Delhi Capitals": "DC.png",
+    "Kolkata Knight Riders": "KKR.png"
 }
 
 # ---------------- INPUT SECTION ---------------- #
