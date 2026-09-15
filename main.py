@@ -221,7 +221,7 @@ if st.button('Predict Winning Probability'):
             ">
                 <h3 style='color:white;'>🏆 Predicted Winner</h3>
                 {logo_html}
-                <h1 style='color:white; margin-top:10px;'>{winner}</h1>
+                <div style='color:white; font-size:32px; font-weight:700; margin-top:10px;'>{winner}</div>
             </div>
             """,
             unsafe_allow_html=True
